@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>igloocoder.PhoneAnnotation</id>
+        <version>0.0.2</version>
+        <title>Igloocoder Phone Annotation</title>
+        <authors>Donald Belcham</authors>
+        <owners>Donald Belcham</owners>
+        <licenseUrl>https://raw.github.com/dbelcham/PhoneAnnotation/master/license.txt</licenseUrl>
+        <projectUrl>https://github.com/dbelcham/PhoneAnnotation</projectUrl>
+        <iconUrl>https://raw.github.com/dbelcham/PhoneAnnotation/master/projecticon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This is an additional DataAnnotation for Model property validation. It's based on the code that AppHarbor blogged about and has it's foundation in the .NET port of Google's libphonenumber library</description>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="libphonenumber-csharp" version="4.10.0.62" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="Igloocoder.PhoneAnnotation\bin\Release\Igloocoder.PhoneAnnotation.dll" target="lib\net45\Igloocoder.PhoneAnnotation.dll" />
+    </files>
+</package>
