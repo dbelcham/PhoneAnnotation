@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>igloocoder.PhoneAnnotation</id>
-        <version>0.0.2</version>
+        <version>0.0.3</version>
         <title>Igloocoder Phone Annotation</title>
         <authors>Donald Belcham</authors>
         <owners>Donald Belcham</owners>
@@ -15,9 +15,13 @@
             <group targetFramework=".NETFramework4.5">
                 <dependency id="libphonenumber-csharp" version="4.10.0.62" />
             </group>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="libphonenumber-csharp" version="4.10.0.62" />
+            </group>
         </dependencies>
     </metadata>
     <files>
-        <file src="Igloocoder.PhoneAnnotation\bin\Release\Igloocoder.PhoneAnnotation.dll" target="lib\net45\Igloocoder.PhoneAnnotation.dll" />
+        <file src="packages\temp\4.0\Igloocoder.PhoneAnnotation.dll" target="lib\net40\Igloocoder.PhoneAnnotation.dll" />
+        <file src="packages\temp\4.5\Igloocoder.PhoneAnnotation.dll" target="lib\net45\Igloocoder.PhoneAnnotation.dll" />
     </files>
 </package>
